@@ -1,0 +1,25 @@
+USE CarDealerDB;
+GO
+
+-- the drops go in order of dependency
+DROP TABLE IF EXISTS Cars;
+
+
+DROP TABLE IF EXISTS Orders;
+
+
+DROP TABLE IF EXISTS Version;
+DROP TABLE IF EXISTS Customer;
+DROP TABLE IF EXISTS Salesperson;
+
+
+DROP TABLE IF EXISTS Models;
+DROP TABLE IF EXISTS Person;
+
+
+DROP TABLE IF EXISTS Trim;
+DROP TABLE IF EXISTS Tires;
+DROP TABLE IF EXISTS Engine;
+DROP TABLE IF EXISTS Producers;
+DROP TABLE IF EXISTS Location;
+GO
